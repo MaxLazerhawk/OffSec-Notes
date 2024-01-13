@@ -24,17 +24,20 @@ Package name in this case is "com.swapcard.apps.android.backhat"
 <details>
 <summary>hashcat</summary>
 Useful sites for online hashes:
-https://hashes.com
-https://hashes.com/en/tools/hash_identifier
+- https://hashes.com
+- https://hashes.com/en/tools/hash_identifier
 
 Can also use hashid to identify hash type:
-```hashid -m [hash]``` - m to show corresponding hashcat mode.
+
+```hashid -m [hash]```
+- m to show corresponding hashcat mode.
 
 Standard hashcat command:
+
 ```hashcat -a 0 -m [hash_mode_id] [hash] [wordlist]``` 
 - Straight attack mode suited for wordlist (-a 0)
 - Specified hash type (-m)
 
-If hashcat does not work consider using John the Ripper.![image](https://github.com/MaxLazerhawk/OffSec-Notes/assets/53828427/330eb814-9960-4221-a8d2-2ba245794200)
+If hashcat does not work consider using John the Ripper.
 
 </details>
