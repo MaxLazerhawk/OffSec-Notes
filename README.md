@@ -1,8 +1,9 @@
 # OffSec-Notes
 Repository created for keeping notes on various topics, vulnerabilities and tools useful in penetration testing. 
 
+## Android hacking
 <details>
-<summary>## Android hacking</summary>
+<summary>ADB</summary>
 ```adb devices``` - Check for devices connected to the host.
 
 ```adb shell``` - Enter phone terminal.
