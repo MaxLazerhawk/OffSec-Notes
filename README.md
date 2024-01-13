@@ -24,6 +24,7 @@ Package name in this case is "com.swapcard.apps.android.backhat"
 <details>
 <summary>hashcat</summary>
 Useful sites for online hashes:
+  
 - https://hashes.com
 - https://hashes.com/en/tools/hash_identifier
 
