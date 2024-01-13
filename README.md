@@ -1,7 +1,7 @@
 # OffSec-Notes
 Repository created for keeping notes on various topics, vulnerabilities and tools useful in penetration testing. 
 
-## Android hacking
+# Android hacking
 <details>
 <summary>ADB</summary>
 
@@ -17,10 +17,9 @@ Package name in this case is "com.swapcard.apps.android.backhat"
 
 ![image](https://github.com/MaxLazerhawk/OffSec-Notes/assets/53828427/31e2fce7-9d1e-4b85-9ae3-49e13fc81c48)
 
-
 </details>
 
-## Cracking Hashes
+# Cracking Hashes
 <details>
 <summary>hashcat</summary>
 Useful sites for online hashes:
@@ -36,9 +35,23 @@ Can also use hashid to identify hash type:
 Standard hashcat command:
 
 ```hashcat -a 0 -m [hash_mode_id] [hash] [wordlist]``` 
-- Straight attack mode suited for wordlist (-a 0)
-- Specified hash type (-m)
+- Straight attack mode suited for wordlist (-a 0).
+- Specified hash type (-m).
 
 If hashcat does not work consider using John the Ripper.
+
+------
+
+</details>
+
+<details>
+<summary>John the Ripper</summary>
+
+```john --format=nt --wordlist=<path-to-wordlist> <hash>```
+- Set hash format (--format=).
+- Set wordlist (--wordlist=).
+
+For hash formats check:
+https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 </details>
