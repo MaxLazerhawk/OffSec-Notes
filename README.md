@@ -2,7 +2,7 @@
 Repository created for keeping notes on various topics, vulnerabilities and tools useful in penetration testing. 
 
 <details>
-<summary>Android hacking</summary>
+<summary>## Android hacking</summary>
 ```adb devices``` - Check for devices connected to the host.
 
 ```adb shell``` - Enter phone terminal.
