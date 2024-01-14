@@ -19,7 +19,7 @@ Package name in this case is "com.swapcard.apps.android.backhat"
 
 </details>
 
-# Cracking Hashes
+# Cryptography
 <details>
 <summary>hashcat</summary>
 Useful sites for online hashes:
@@ -53,6 +53,25 @@ If hashcat does not work consider using John the Ripper.
 
 For hash formats check:
 https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
+
+------
+
+</details>
+
+</details>
+
+<details>
+<summary>Other Tools</summary>
+
+**Hashmyfiles** - For calculating and comparing hashes of files. Can be used to compare hashes and find tempered data.
+
+**CryptoForge** - For easy encrypting and decrypting using password.
+
+**BcTextEncodes** - For encoding and decoding text in file (.hex). 
+
+**Cryptool** - For encryption/decryption of hex data - by manipulating the key length. This tool can perform brute-force analysis.
+
+**Veracrypt** - For hiding and encrypting disk partitions. Can also be used to open encrypted disk partition (mount). Outer and inner partitions has separate passwords.
 
 </details>
 
