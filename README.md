@@ -55,3 +55,20 @@ For hash formats check:
 https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 </details>
+
+# Wireless Attacks
+<details>
+<summary>aircrack-ng</summary>
+Used to crack .cap files. WEP, WPA/WPA2 wireless networks.
+
+```aircrack-ng [filename].cap```
+
+- Works for WEP.
+- If the capture file has sufficient packets aircrack will be able to crack it.
+
+```aircrack-ng [filename].cap -w [file]``` 
+
+- Works for WPA.
+- Dictionary added (-w).
+
+</details>
