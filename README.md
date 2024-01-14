@@ -75,6 +75,22 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 </details>
 
+# Malware Threats
+<details>
+<summary>RAT's</summary>
+
+You need to target the right IP and port number (try default first).
+You need to use the right tool from the available.
+
+Example tools to establish a connection to a RAT:
+- njRAT
+- MoSucker
+- ProRat
+- Theef
+- HTTP RAT
+
+</details>
+
 # Wireless Attacks
 <details>
 <summary>aircrack-ng</summary>
