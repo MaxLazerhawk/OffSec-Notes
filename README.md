@@ -1,6 +1,19 @@
 # OffSec-Notes
 Repository created for keeping notes on various topics, vulnerabilities and tools useful in penetration testing. 
 
+# Reconnaissance
+<details>
+<summary>nmap</summary>
+
+```nmap -sT [IP]``` - Use TCP connect scan (-sT) if not root/sudo user. Only option for non sudoers.
+
+```sudo nmap [IP] ``` -  By default nmap uses TCP SYN scan (-sS), but this should be used only from root/sudo user.
+
+```sudo nmap -sV -O -v [URL] -p- -oN [Filename.txt]``` - Default SYN scan with enabled version detection (-sV) and OS detection (-O). Additional flags - verbose mode (-v), all ports (-p-), outputs to .txt file (-oN). 
+
+
+</details>
+
 # Android hacking
 <details>
 <summary>ADB</summary>
