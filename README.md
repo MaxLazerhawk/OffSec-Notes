@@ -129,6 +129,13 @@ Example tools to establish a connection to a RAT:
 
 </details>
 
+# Steganography
+<details>
+<summary>Tools</summary>
+
+
+</details>
+
 # Wireless Attacks
 <details>
 <summary>aircrack-ng</summary>
