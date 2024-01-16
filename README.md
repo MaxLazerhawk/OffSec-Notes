@@ -3,12 +3,14 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 
 # Reconnaissance
 
- Port        | Service           | Protocol  |
-| ------------- |:-------------:| -----:|
-| 21      | FTP      | TCP, UDP, SCTP |
-| 22      | SSH      |   TCP, UDP, SCTP |
-| 25      | SMTP     |    TCP |
-| 445     | SMB      |    TCP, UDP |
+ Port     | Service  | Protocol          |
+| --------|:--------:| -----------------:|
+| 21      | FTP      |    TCP, UDP, SCTP |
+| 22      | SSH      |    TCP, UDP, SCTP |
+| 137     | NetBIOS  |    TCP, UDP       |
+| 161     | SNMP     |    UDP            |
+| 445     | SMB      |    TCP, UDP       |
+| 3389    | RDP      |    TCP            |
 
 <details>
 <summary>nmap</summary>
@@ -17,7 +19,7 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 
 ```sudo nmap [IP] ``` -  By default nmap uses TCP SYN scan (-sS), but this should be used only from root/sudo user.
 
-```sudo nmap -sV -O -v [URL] -p- -oN [Filename.txt]``` - Default SYN scan with enabled version detection (-sV) and OS detection (-O). Additional flags - verbose mode (-v), all ports (-p-), output to .txt file (-oN). 
+```sudo nmap -sV -O -v [IP] -p- -oN [Filename.txt]``` - Default SYN scan with enabled version detection (-sV) and OS detection (-O). Additional flags - verbose mode (-v), all ports (-p-), output to .txt file (-oN). 
 
 ```sudo nmap -A [IP]``` - Default SYN scan with enabled OS detection, version detection, script scanning, and traceroute (-A).
 
@@ -25,7 +27,7 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 
 Useful methods:
 
-```sudo nmap -sU [IP]``` - Performs UDP scan (-SU).
+```sudo nmap -sU [IP]``` - Performs UDP scan (-sU).
 
 </details>
 
