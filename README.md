@@ -3,6 +3,8 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 
 # Reconnaissance
 
+### Some Common Ports
+
  Port     | Service  | Protocol          |
 | --------|:--------:| -----------------:|
 | 21      | FTP      |    TCP, UDP, SCTP |
@@ -25,9 +27,15 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 
 ```sudo nmap --script http-methods [IP]``` - Default SYN scan with specific script (--script). As an example script *http-methods* (enumerates allowed HTTP methods) is used.
 
-Useful methods:
-
 ```sudo nmap -sU [IP]``` - Performs UDP scan (-sU).
+
+Useful nmap scripts:
+
+ Script   | Service  | Description |
+|:--------|:--------|:-----------|
+| smb-os-discovery.nse    | SMB (445)  | Enumerate OS, domain name,etc. |
+| smb-enum-users.nse      | SMB (445)  | Used to enumerate all users on remote Windows system using SAMR enumeration and LSA bruteforcing. |
+| smb-enum-shares.nse     | SMB (445)  | SMB shares. |
 
 </details>
 
