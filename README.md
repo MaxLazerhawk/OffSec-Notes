@@ -124,6 +124,7 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 </details>
 
 # Malware Threats
+
 <details>
 <summary>RAT's</summary>
 
@@ -136,6 +137,13 @@ Example tools to establish a connection to a RAT:
 - ProRat
 - Theef
 - HTTP RAT
+
+</details>
+
+<details>
+<summary>Malware Analysis Tools</summary>
+
+**DIE (Detect it Easy)** - Scan and analyze .elf files.
 
 </details>
 
