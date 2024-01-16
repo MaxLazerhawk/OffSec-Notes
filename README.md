@@ -151,6 +151,9 @@ Example tools to establish a connection to a RAT:
 <details>
 <summary>Tools</summary>
 
+**SNOW** - [placeholder]. 
+
+**Steghide** - [placeholder]. 
 
 </details>
 
