@@ -57,6 +57,16 @@ Package name in this case is "com.swapcard.apps.android.backhat"
 
 </details>
 
+# Brute-force
+<details>
+<summary>Hydra</summary>
+
+```sudo hydra -l <username> -P <wordlist> [URL] ssh``` - Basic Hydra command for brute-forcing ssh password. Works similarly with other protocols such as FTP.
+
+```sudo hydra -l <username> -P <wordlist> [base_URL] http-post-form "<path>:<login_credentials>:<invalid_response>"``` - Hydra command for HTTP POST form. Path need to be specified seperately from base URL.
+
+</details>
+
 # Cryptography
 <details>
 <summary>hashcat</summary>
