@@ -2,6 +2,14 @@
 Repository created for keeping notes on various topics, vulnerabilities and tools useful in penetration testing. 
 
 # Reconnaissance
+
+ Port        | Service           | Protocol  |
+| ------------- |:-------------:| -----:|
+| 21      | FTP      | TCP, UDP, SCTP |
+| 22      | SSH      |   TCP, UDP, SCTP |
+| 25      | SMTP     |    TCP |
+| 445     | SMB      |    TCP, UDP |
+
 <details>
 <summary>nmap</summary>
 
@@ -14,6 +22,10 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 ```sudo nmap -A [IP]``` - Default SYN scan with enabled OS detection, version detection, script scanning, and traceroute (-A).
 
 ```sudo nmap --script http-methods [IP]``` - Default SYN scan with specific script (--script). As an example script *http-methods* (enumerates allowed HTTP methods) is used.
+
+Useful methods:
+
+```sudo nmap -sU [IP]``` - Performs UDP scan (-SU).
 
 </details>
 
