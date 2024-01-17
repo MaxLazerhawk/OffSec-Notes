@@ -81,8 +81,6 @@ For SQL injection focused task either perform the injection manually or use sqlm
 
 # Metasploit
 
-```scanner/smb/smb_login``` - Use this module to brute-force SMB logins.
-
 ### Handy Metasploit modules
 
  Module    | Service  | Description       |
