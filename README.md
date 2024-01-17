@@ -80,6 +80,9 @@ For SQL injection focused task either perform the injection manually or use sqlm
 </details>
 
 # Metasploit
+
+```scanner/smb/smb_login``` - Use this module to brute-force SMB logins.
+
 <details>
 <summary>msfvenom</summary>
 
