@@ -17,6 +17,8 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 <details>
 <summary>nmap</summary>
 
+```sudo nmap -sn 192.168.0.0/24``` - Check for hosts only, disable port scan (-sn).
+
 ```nmap -sT [IP]``` - Use TCP connect scan (-sT) if not root/sudo user. Only option for non sudoers.
 
 ```sudo nmap [IP] ``` -  By default nmap uses TCP SYN scan (-sS), but this should be used only from root/sudo user.
@@ -28,6 +30,8 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 ```sudo nmap --script http-methods [IP]``` - Default SYN scan with specific script (--script). As an example script *http-methods* (enumerates allowed HTTP methods) is used.
 
 ```sudo nmap -sU [IP]``` - Performs UDP scan (-sU).
+
+```-n``` - Tells Nmap to never do reverse DNS resolution on the active IP addresses it finds. Since DNS can be slow even with Nmap's built-in parallel stub resolver, this option reduces scanning times.
 
 Useful nmap scripts:
 
@@ -179,6 +183,8 @@ Example tools to establish a connection to a RAT:
 **Steghide** - [placeholder].
 
 ```steghide extract -sf [file]``` - Extract confidential file from, for example, picture .jpg file.
+
+```stegcracker <file> [wordlist]``` - Crack password protected file.
 
 </details>
 
