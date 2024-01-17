@@ -83,6 +83,15 @@ For SQL injection focused task either perform the injection manually or use sqlm
 
 ```scanner/smb/smb_login``` - Use this module to brute-force SMB logins.
 
+### Handy Metasploit modules
+
+ Module    | Service  | Description       |
+| --------|:--------:| -----------------:|
+| smb_login     | SMB      |    Brute-force SMB credentials. |
+| smb_version   | SMB      |    Scan for SMB version.        |
+| smb_enumshares| SMB      |    Enumerates SMB shares.       |
+|     |     |          |
+
 <details>
 <summary>msfvenom</summary>
 
