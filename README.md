@@ -79,6 +79,13 @@ For SQL injection focused task either perform the injection manually or use sqlm
 
 </details>
 
+# Metasploit
+<details>
+<summary>msfvenom</summary>
+
+
+</details>
+
 # Android hacking
 <details>
 <summary>ADB</summary>
