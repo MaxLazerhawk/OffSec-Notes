@@ -207,3 +207,19 @@ Used to crack .cap files. WEP, WPA/WPA2 wireless networks.
 - Dictionary added (-w).
 
 </details>
+
+# Useful Links
+
+### Notes:
+
+https://github.com/infovault-Ytube/CEH-Practical-Notes
+
+https://github.com/CyberSecurityUP/Guide-CEH-Practical-Master
+
+https://github.com/TheCyberpunker/CEH-Practical-Notes
+
+https://chirag-singla.notion.site/chirag-singla/CEH-Practical-Preparation-7f2b77651cd144e8872f2f5a30155052
+
+### Tool Documentation:
+
+https://github.com/horsicq/Detect-It-Easy
