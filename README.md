@@ -176,7 +176,9 @@ Example tools to establish a connection to a RAT:
 
 **SNOW** - [placeholder]. 
 
-**Steghide** - [placeholder]. 
+**Steghide** - [placeholder].
+
+```steghide extract -sf [file]``` - Extract confidential file from, for example, picture .jpg file.
 
 </details>
 
