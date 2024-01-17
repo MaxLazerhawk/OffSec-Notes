@@ -74,6 +74,9 @@ For SQL injection focused task either perform the injection manually or use sqlm
 
 ```sqlmap -u “[URL]” --os-shell``` - Pop shell through sqlmap (--os-shell).
 
+```sudo sqlmap -r [filename] --batch -v 5 | tee [output]``` - Use sqlmap with request from file (-r), for example, captured by Burp. This command also uses standard behaviour (--batch) and saves the output to a file (| tee)
+
+
 </details>
 
 # Android hacking
