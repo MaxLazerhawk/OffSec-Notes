@@ -207,6 +207,8 @@ Example tools to establish a connection to a RAT:
 <details>
 <summary>Malware Analysis Tools</summary>
 
+https://www.hybrid-analysis.com/ - Online tool.
+
 **DIE (Detect it Easy)** - Scan and analyze .elf files.
 
 </details>
