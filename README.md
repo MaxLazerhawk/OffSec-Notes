@@ -88,7 +88,8 @@ For SQL injection focused task either perform the injection manually or use sqlm
 | smb_login     | SMB      |    Brute-force SMB credentials. |
 | smb_version   | SMB      |    Scan for SMB version.        |
 | smb_enumshares| SMB      |    Enumerates SMB shares.       |
-| smart_hashdump   | Windows(any)    | ```run post/windows/gather/smart_hashdump``` - Use this when in meterpreter shell and want to search for Windows hashes.        | 
+| post/windows/gather/smart_hashdump  | Windows(any)    | ```run post/windows/gather/smart_hashdump``` - Use this when in meterpreter shell and want to search for Windows hashes.        | 
+| post/linux/gather/hashdump   | Linux(any)    | ```run post/linux/gather/hashdumpp``` - Use this when in meterpreter shell and want to search for Linux hashes.        |
 | exploit/multi/handler| Any      |    Use this to catch shell.       |
 
 <details>
