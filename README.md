@@ -190,7 +190,8 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 # Privilege Escallation
 
-### Scenario 1
+<details>
+<summary>Scenario 1</summary>
 
 **Horizontal**
 
@@ -208,6 +209,8 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 6. ```ssh root@[IP] -i id_rsa -p [PORT]``` - check if you can login as root.
 
 *IF you have access to authorized_keys file there is also a way to copy into the file your own keys. This way around you can enter as root user with your own private key.
+
+</details>
 
 
 </details>
