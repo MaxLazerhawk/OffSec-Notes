@@ -207,6 +207,8 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 5. ```chmod 600 id_rsa``` - give rights to file.
 6. ```ssh root@[IP] -i id_rsa -p [PORT]``` - check if you can login as root.
 
+*IF you have access to authorized_keys file there is also a way to copy into the file your own keys.
+
 
 </details>
 
