@@ -188,6 +188,28 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 </details>
 
+# Privilege Escallation
+
+Horizontal
+
+```sudo -l``` - Check other other user sudo permissions.
+
+```sudo -u user2 /bin/bash``` - If, for example, user2 has sudo privileges to /bin/bash, you can spin the bash using this command.
+
+Scenario 1
+
+Vertical
+
+1. ```ls -la``` - Check all directories. Look for .ssh directory.
+2. Navigate to .ssh folder.
+3. Copy content of id_rsa file.
+4. Create file id_rsa on attacker machine and paste the content.
+5. ```chmod 600 id_rsa``` - give rights to file.
+6. ```ssh root@[IP] -i id_rsa -p [PORT]``` - check if you can login as root.
+
+
+</details>
+
 # Malware Threats
 
 <details>
