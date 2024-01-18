@@ -326,6 +326,8 @@ https://chirag-singla.notion.site/chirag-singla/CEH-Practical-Preparation-7f2b77
 
 https://ceh-practical.cavementech.com/
 
+https://infosecwriteups.com/privileges-escalation-techniques-basic-to-advanced-in-linux-973cb62cbe8d
+
 ### Tool Documentation:
 
 https://github.com/horsicq/Detect-It-Easy
