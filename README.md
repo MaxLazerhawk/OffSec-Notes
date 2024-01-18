@@ -190,15 +190,15 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 # Privilege Escallation
 
-Horizontal
+### Scenario 1
+
+**Horizontal**
 
 ```sudo -l``` - Check other other user sudo permissions.
 
 ```sudo -u user2 /bin/bash``` - If, for example, user2 has sudo privileges to /bin/bash, you can spin the bash using this command.
 
-Scenario 1
-
-Vertical
+**Vertical**
 
 1. ```ls -la``` - Check all directories. Look for .ssh directory.
 2. Navigate to .ssh folder.
@@ -313,3 +313,11 @@ https://ceh-practical.cavementech.com/
 ### Tool Documentation:
 
 https://github.com/horsicq/Detect-It-Easy
+
+### Videos
+
+https://www.youtube.com/watch?v=VuIYNxazbN0&list=PLZEA2EJpqSWfouVNPkl37AWEVCj6A2mdz&index=9
+
+https://www.youtube.com/watch?v=4JzLg7wjHm8&list=PL-Fa25Pu8l6wV1Se-bPY-Onc6t_mUTZHW
+
+https://www.youtube.com/watch?v=`x31mz'|F='op!'!jmA|
