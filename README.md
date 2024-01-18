@@ -84,7 +84,7 @@ For SQL injection focused task either perform the injection manually or use sqlm
 ### Handy Metasploit modules
 
  Module    | Service  | Description       |
-| --------|:--------:| -----------------:|
+| --------|:--------:|:-----------------|
 | smb_login     | SMB      |    Brute-force SMB credentials. |
 | smb_version   | SMB      |    Scan for SMB version.        |
 | smb_enumshares| SMB      |    Enumerates SMB shares.       |
