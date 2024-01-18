@@ -88,7 +88,8 @@ For SQL injection focused task either perform the injection manually or use sqlm
 | smb_login     | SMB      |    Brute-force SMB credentials. |
 | smb_version   | SMB      |    Scan for SMB version.        |
 | smb_enumshares| SMB      |    Enumerates SMB shares.       |
-|     |     |          |
+| smart_hashdump   | Windows(any)    | ```run post/windows/gather/smart_hashdump``` - Use this when in meterpreter shell and want to search for Windows hashes.        | 
+
 
 <details>
 <summary>msfvenom</summary>
@@ -207,6 +208,21 @@ Example tools to establish a connection to a RAT:
 ```stegcracker <file> [wordlist]``` - Crack password protected file.
 
 </details>
+
+# Traffic Sniffing
+<details>
+<summary>Wireshark</summary>
+
+```tcp.flags.syn==1``` - Filter apply example, this one searches for SYN packets.
+
+Follow streams to check for interesting data. Rightclick on packet -> Follow -> TCP Stream (can be other protocols).
+
+### View capture file properties to look for comments.
+![image](https://github.com/MaxLazerhawk/OffSec-Notes/assets/53828427/39f702e0-c213-457b-9695-cb336a4488b9)
+
+
+</details>
+
 
 # Wireless Attacks
 <details>
