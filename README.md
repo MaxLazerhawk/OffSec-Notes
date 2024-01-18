@@ -89,7 +89,7 @@ For SQL injection focused task either perform the injection manually or use sqlm
 | smb_version   | SMB      |    Scan for SMB version.        |
 | smb_enumshares| SMB      |    Enumerates SMB shares.       |
 | smart_hashdump   | Windows(any)    | ```run post/windows/gather/smart_hashdump``` - Use this when in meterpreter shell and want to search for Windows hashes.        | 
-
+| exploit/multi/handler| Any      |    Use this to catch shell.       |
 
 <details>
 <summary>msfvenom</summary>
