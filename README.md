@@ -210,6 +210,15 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 *IF you have access to authorized_keys file there is also a way to copy into the file your own keys. This way around you can enter as root user with your own private key.
 
+------
+
+</details>
+
+<details>
+<summary>Scenario 2</summary>
+
+
+
 </details>
 
 
