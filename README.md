@@ -190,6 +190,8 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 # Privilege Escallation
 
+```nc -nlvp [PORT]``` - Start netcat listener to catch shell.
+
 <details>
 <summary>Scenario 1</summary>
 
