@@ -40,6 +40,7 @@ Useful nmap scripts:
 | smb-os-discovery.nse    | SMB (445)  | Enumerate OS, domain name,etc. |
 | smb-enum-users.nse      | SMB (445)  | Used to enumerate all users on remote Windows system using SAMR enumeration and LSA bruteforcing. |
 | smb-enum-shares.nse     | SMB (445)  | SMB shares. |
+| nbstat.nse     | NetBIOS (137)  | NetBIOS enumeration, use -sU for UDP. |
 
 </details>
 
