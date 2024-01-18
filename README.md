@@ -217,6 +217,8 @@ Example tools to establish a connection to a RAT:
 
 Follow streams to check for interesting data. Rightclick on packet -> Follow -> TCP Stream (can be other protocols).
 
+To check for files in the conversations use export option. File -> Export -> HTTP (can be other protocol) -> sort by content-type to see if there are any .txt files for example.
+
 ### View capture file properties to look for comments.
 ![image](https://github.com/MaxLazerhawk/OffSec-Notes/assets/53828427/39f702e0-c213-457b-9695-cb336a4488b9)
 
