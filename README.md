@@ -255,6 +255,8 @@ To check for files in the conversations use export option. File -> Export -> HTT
 
 OR use SCP, SFTP or FTP protocols.
 
+```scp /path/to/local/file.txt <user>@$IP:$PORT:/path/to/remote/``` - SCP file transfer example.
+
 # Wireless Attacks
 <details>
 <summary>aircrack-ng</summary>
