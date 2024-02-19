@@ -256,6 +256,8 @@ https://www.hybrid-analysis.com/ - Online tool.
 
 **DIE (Detect it Easy)** - Scan and analyze .elf files.
 
+**PE Explorer** - Find entry point address.
+
 </details>
 
 # Steganography
