@@ -67,6 +67,8 @@ For SQL injection focused task either perform the injection manually or use sqlm
 
 ```sudo sqlmap -u “[URL]” --cookie="[cookie_value]" --dbs``` - Initial command to enumerate databases (--dbs). Add cookie values if necessary (--cookie).
 
+To get the cookie for this login -> inspect element -> console -> type ```document.cookie```
+
 ```sudo sqlmap -u “[URL]” -D [database_name] --tables``` - Enumerate tables in the specified database (--tables).
 
 ```sudo sqlmap -u “[URL]” -D [database_name] -T [table_name] --columns``` - Enumerate columns in the specified table (--columns).
