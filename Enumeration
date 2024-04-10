@@ -1,1 +1,7 @@
+# Web Enumeration
+
+### Gobuster
+
+```gobuster dir -u http://[URL] -w [path/to/wordlist]``` - Enumerate everything about SMB on specified IP and PORT.
+
 
