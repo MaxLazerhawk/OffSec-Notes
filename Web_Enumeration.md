@@ -21,3 +21,14 @@
 | /usr/share/wordlists/dirb/small.txt                        |  |
 | /usr/share/wordlists/dirb/extensions_common.txt            | Useful for when fuzzing for files. |
 
+
+### WPscan
+
+```wpscan –-url http://cmnatics.playground –-enumerate t``` - Enumerate themes.
+
+```wpscan –-url http://cmnatics.playground –-enumerate p``` - Enumerate plugins.
+
+```wpscan –-url http://cmnatics.playground –-enumerate u``` - Enumerate users.
+
+```wpscan –-url http://cmnatics.playground –-passwords rockyou.txt –-usernames cmnatic``` - Brute-force.
+
