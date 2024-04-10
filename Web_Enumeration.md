@@ -12,11 +12,12 @@
 
 ### Useful Wordlists
 
- Script   | Service  | Description |
-|:--------|:--------|:-----------|
-| smb-os-discovery.nse    | SMB (445)  | Enumerate OS, domain name,etc. |
-| smb-enum-users.nse      | SMB (445)  | Used to enumerate all users on remote Windows system using SAMR enumeration and LSA bruteforcing. |
-| smb-enum-shares.nse     | SMB (445)  | SMB shares. |
-| nbstat.nse     | NetBIOS (137)  | NetBIOS enumeration, use -sU for UDP. |
-
+ Wordlist   | Description |
+|:--------|:-----------|
+| /usr/share/wordlists/dirbuster/directory-list-2.3-*.txt    |  |
+| /usr/share/wordlists/dirbuster/directory-list-1.0.txt      |  |
+| /usr/share/wordlists/dirb/big.txt                          |  |
+| /usr/share/wordlists/dirb/common.txt                       |  |
+| /usr/share/wordlists/dirb/small.txt                        |  |
+| /usr/share/wordlists/dirb/extensions_common.txt            |  |
 
