@@ -10,3 +10,8 @@
 
 ```enum4linux -a [IP] [PORT]``` - Enumerate everything about SMB on specified IP and PORT.
 
+```smbclient //[IP]/[Share] -U [Username] -p 139/445``` - Connect to SMB share only username.
+
+```smbclient //[IP]/[Share] -U [Username]%[Password] -p 139/445``` - Connect to SMB share when you know Username and Password.
+
+```get 'filename.txt'``` - Used in smbclient to download file.
