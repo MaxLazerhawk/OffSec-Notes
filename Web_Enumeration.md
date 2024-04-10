@@ -19,5 +19,5 @@
 | /usr/share/wordlists/dirb/big.txt                          |  |
 | /usr/share/wordlists/dirb/common.txt                       |  |
 | /usr/share/wordlists/dirb/small.txt                        |  |
-| /usr/share/wordlists/dirb/extensions_common.txt            |  |
+| /usr/share/wordlists/dirb/extensions_common.txt            | Useful for when fuzzing for files. |
 
