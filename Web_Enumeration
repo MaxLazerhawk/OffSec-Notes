@@ -2,6 +2,14 @@
 
 ### Gobuster
 
-```gobuster dir -u http://[URL] -w [path/to/wordlist]``` - Enumerate everything about SMB on specified IP and PORT.
+```gobuster dir -u http://[URL] -w [path/to/wordlist]``` - Enumerate directories on specified port.
+
+```gobuster dir -u http://[URL] -w [path/to/wordlist] -x.conf.config.js.sh.php``` - Enumerate directories on specified port and search for specific file extensions.
+
+```gobuster dns -d http://[URL] -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt``` - Enumerate subdomains.
+
+```gobuster vhost -u http://example.com -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt``` - Enumerate virtual hosts.
+
+### Useful Wordlists
 
 
