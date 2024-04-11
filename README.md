@@ -19,6 +19,8 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 
 ```sudo nmap -sn 192.168.0.0/24``` - Check for hosts only, disable port scan (-sn).
 
+```sudo nmap -sn --exclude [IP] 192.168.0.0/24``` - Check for hosts only, disable port scan (-sn), exclude a specific url (--exclude).
+
 ```nmap -sT [IP]``` - Use TCP connect scan (-sT) if not root/sudo user. Only option for non sudoers.
 
 ```sudo nmap [IP] ``` -  By default nmap uses TCP SYN scan (-sS), but this should be used only from root/sudo user.
