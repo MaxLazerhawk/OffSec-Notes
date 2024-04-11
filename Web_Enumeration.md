@@ -47,6 +47,12 @@ Plugin Name |	Description
 
 ```nikto -h [URL] -Display 2``` - Enumeration displaying cookies as an example. Check Display mode list.
 
+Argument |	Description |	Reasons for Use
+|:--------|:-----------|:-----------|
+| 1	| Show any redirects that are given by the web server. | 	Web servers may want to relocate us to a specific file or directory, so we will need to adjust our scan accordingly for this. |
+| 2	| Show any cookies received 	Applications often use cookies as a means of storing data. | For example, web servers use sessions, where e-commerce sites may store products in your basket as these cookies. | Credentials can also be stored in cookies. |
+| E |	Output any errors	| This will be useful for debugging if your scan is not returning the results that you expect! |
+
 ```nikto -h [URL] -Tuning 2``` - Enumeration and trying specific vulnerabilities (Misconfiguration/default files) in this case. Check list.
 
 
