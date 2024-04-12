@@ -200,6 +200,10 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 ```find / -perm -u=s -type f 2>/dev/null``` - Search for SUID files.
 
+Look for sbin.
+
+```ltrace [prog]``` - Can be used to check what the program is doing.
+
 <details>
 <summary>Scenario 1</summary>
 
