@@ -198,6 +198,8 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 ```nc -nlvp [PORT]``` - Start netcat listener to catch shell.
 
+```find / -perm -u=s -type f 2>/dev/null``` - Search for SUID files.
+
 <details>
 <summary>Scenario 1</summary>
 
