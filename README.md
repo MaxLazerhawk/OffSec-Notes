@@ -128,6 +128,8 @@ Refer to "Transfering Files" section in order to see details how to upload these
 
 ```adb shell pm path [package_name]``` - Check path for given app package.
 
+```adb shell find / -name *maps*``` - Find stuff with adb.
+
 Package names can be viewed via Google Play store. For example: https://play.google.com/store/apps/details?id=com.swapcard.apps.android.blackhat&hl=en_IN
 
 Package name in this case is "com.swapcard.apps.android.backhat"
