@@ -282,7 +282,7 @@ https://www.hybrid-analysis.com/ - Online tool.
 
 ```steghide extract -sf [file]``` - Extract confidential file from, for example, picture .jpg file.
 
-```stegcracker <file> [wordlist]``` - Crack password protected file.
+```stegcracker <file> [wordlist]``` - Crack password protected file. *stegseek can also be used, it is much faster.
 
 ```crunch 8 8 -p Imaginto >> bruteforce.txt``` - Create wordlist with crunch. This command creates 8 character long words consisting of characters "Imaginto" non-repeating and saves it into .txt file.
 
