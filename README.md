@@ -278,8 +278,6 @@ https://www.hybrid-analysis.com/ - Online tool.
 
 **SNOW** - [placeholder]. 
 
-**Steghide** - [placeholder].
-
 ```steghide embed -cf Cat03.jpg -ef secret.txt -p Iaginomt``` - Embed secret.txt into Cat03.jpg set password of "Iaginomt".
 
 ```steghide extract -sf [file]``` - Extract confidential file from, for example, picture .jpg file.
