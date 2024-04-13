@@ -284,6 +284,8 @@ https://www.hybrid-analysis.com/ - Online tool.
 
 ```stegcracker <file> [wordlist]``` - Crack password protected file.
 
+```crunch 8 8 -p Imaginto >> bruteforce.txt``` - Create wordlist with crunch. This command creates 8 character long words consisting of characters "Imaginto" non-repeating and saves it into .txt file.
+
 </details>
 
 # Traffic Sniffing
