@@ -2,6 +2,8 @@
 
 **SNOW** - used for recovering secret data from a text file. 
 
+```SNOW.EXE -C -p "password" [filename]``` - Extract hidden data from text file.
+
 ### Steghide
 
 ```steghide embed -cf Cat03.jpg -ef secret.txt -p Iaginomt``` - Embed secret.txt into Cat03.jpg set password of "Iaginomt".
