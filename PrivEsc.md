@@ -8,7 +8,7 @@ Look for sbin.
 
 ```ltrace [prog]``` - Can be used to check what the program is doing.
 
-<details>
+<details open>
 <summary>Scenario 1</summary>
 
 **Horizontal**
@@ -32,7 +32,7 @@ Look for sbin.
 
 </details>
 
-<details>
+<details open>
 <summary>Scenario 2</summary>
 
 ```cat /etc/crontab``` - To find cronjobs.
@@ -45,5 +45,3 @@ Remember to ```chomd +x``` !
 
 </details>
 
-
-</details>
