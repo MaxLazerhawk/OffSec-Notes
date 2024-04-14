@@ -4,6 +4,8 @@
 
 ```SNOW.EXE -C -p "password" [filename]``` - Extract hidden data from text file.
 
+**Openstego** - GUI version of SNOW and Steghide. 
+
 ### Steghide
 
 ```steghide embed -cf Cat03.jpg -ef secret.txt -p Iaginomt``` - Embed secret.txt into Cat03.jpg set password of "Iaginomt".
