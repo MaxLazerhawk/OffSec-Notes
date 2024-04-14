@@ -136,6 +136,8 @@ Package name in this case is "com.swapcard.apps.android.backhat"
 
 ![image](https://github.com/MaxLazerhawk/OffSec-Notes/assets/53828427/31e2fce7-9d1e-4b85-9ae3-49e13fc81c48)
 
+Phonesploit can also be used.
+
 </details>
 
 # Cryptography
