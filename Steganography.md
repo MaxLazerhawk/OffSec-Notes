@@ -1,6 +1,6 @@
 # Steganography
 
-**SNOW** - [placeholder]. 
+**SNOW** - used for recovering secret data from a text file. 
 
 ### Steghide
 
