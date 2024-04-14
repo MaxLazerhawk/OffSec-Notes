@@ -47,7 +47,7 @@ Useful nmap scripts:
 </details>
 
 # Brute-force
-<details>
+<details open>
 <summary>Hydra</summary>
 
 ```sudo hydra -l <username> -P <wordlist> [URL] ssh``` - Basic Hydra command for brute-forcing ssh password. Works similarly with other protocols such as FTP.
