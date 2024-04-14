@@ -14,7 +14,7 @@ Repository created for keeping notes on various topics, vulnerabilities and tool
 | 445     | SMB      |    TCP, UDP       |
 | 3389    | RDP      |    TCP            |
 
-<details>
+<details open>
 <summary>nmap</summary>
 
 ```sudo nmap -sn 192.168.0.0/24``` - Check for hosts only, disable port scan (-sn).
