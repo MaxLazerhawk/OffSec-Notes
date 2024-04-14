@@ -118,30 +118,6 @@ Refer to "Transfering Files" section in order to see details how to upload these
 
 </details>
 
-# Android hacking
-<details>
-<summary>ADB</summary>
-
-```adb devices``` - Check for devices connected to the host.
-
-```adb shell``` - Enter phone terminal.
-
-```adb shell pm path [package_name]``` - Check path for given app package.
-
-```adb shell find / -name *maps*``` - Find stuff with adb.
-
-```adb shell find / -name 'file.txt' 2>/dev/null``` - Find stuff with adb, ignore permissions denied.
-
-Package names can be viewed via Google Play store. For example: https://play.google.com/store/apps/details?id=com.swapcard.apps.android.blackhat&hl=en_IN
-
-Package name in this case is "com.swapcard.apps.android.backhat"
-
-![image](https://github.com/MaxLazerhawk/OffSec-Notes/assets/53828427/31e2fce7-9d1e-4b85-9ae3-49e13fc81c48)
-
-Phonesploit can also be used.
-
-</details>
-
 # Cryptography
 <details>
 <summary>hashcat</summary>
