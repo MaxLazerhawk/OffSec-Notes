@@ -146,6 +146,9 @@ OR use SCP, SFTP or FTP protocols.
 
 ```find / -perm -o w -type d 2>/dev/null``` - Find world-writeable folders.
 
+```find / -perm -o x -type d 2>/dev/null``` - Find world-executable folders.
+
+
 
 
 # Wireless Attacks
