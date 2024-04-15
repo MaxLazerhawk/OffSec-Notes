@@ -11,7 +11,7 @@
 | post/linux/gather/hashdump   | Linux(any)    | ```run post/linux/gather/hashdump``` - Use this when in meterpreter shell and want to search for Linux hashes.        |
 | exploit/multi/handler| Any      |    Use this to catch shell.       |
 
-<details>
+<details open>
 <summary>msfvenom</summary>
 
 ### Msfvenom Payload Examples
