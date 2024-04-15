@@ -1,5 +1,5 @@
 # Cryptography
-<details>
+<details open>
 <summary>hashcat</summary>
 Useful sites for online hashes:
   
@@ -23,7 +23,7 @@ If hashcat does not work consider using John the Ripper.
 
 </details>
 
-<details>
+<details open>
 <summary>John the Ripper</summary>
 
 ```john --format=nt --wordlist=<path-to-wordlist> <hash>```
@@ -39,7 +39,7 @@ https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
 
 </details>
 
-<details>
+<details open>
 <summary>Other Tools</summary>
 
 **Hashmyfiles** - For calculating and comparing hashes of files. Can be used to compare hashes and find tempered data.
