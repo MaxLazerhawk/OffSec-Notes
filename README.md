@@ -212,7 +212,7 @@ Follow streams to check for interesting data. Rightclick on packet -> Follow -> 
 
 To check for files in the conversations use export option. File -> Export -> HTTP (can be other protocol) -> sort by content-type to see if there are any .txt files for example.
 
-To followup on something like a DoS or DDoS attack go into Statistics and sort by packet count or bytes sent.
+**To followup on something like a DoS or DDoS attack go into Statistics and sort by packet count or bytes sent.**
 
 ![image](https://github.com/MaxLazerhawk/OffSec-Notes/assets/53828427/b0417cc6-a20b-450a-bce0-4588031e210e)
 
