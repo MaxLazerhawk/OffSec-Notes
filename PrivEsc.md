@@ -4,6 +4,8 @@
 
 ```find / -perm -u=s -type f 2>/dev/null``` - Search for SUID files.
 
+```find / -type f -perm -04000 -ls 2>/dev/null``` - Aternative search for SUID files.
+
 Look for sbin.
 
 ```ltrace [prog]``` - Can be used to check what the program is doing.
