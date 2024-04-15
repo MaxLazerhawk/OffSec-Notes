@@ -220,6 +220,7 @@ To check for files in the conversations use export option. File -> Export -> HTT
 ### View capture file properties to look for comments.
 ![image](https://github.com/MaxLazerhawk/OffSec-Notes/assets/53828427/39f702e0-c213-457b-9695-cb336a4488b9)
 
+**IOT** ```mqtt``` to filter mqtt trafic. Publish message might be important.
 
 </details>
 
