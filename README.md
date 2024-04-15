@@ -203,7 +203,7 @@ https://www.hybrid-analysis.com/ - Online tool.
 </details>
 
 # Traffic Sniffing
-<details>
+<details open>
 <summary>Wireshark</summary>
 
 ```tcp.flags.syn==1``` - Filter apply example, this one searches for SYN packets.
