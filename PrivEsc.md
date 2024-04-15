@@ -1,5 +1,10 @@
 # Privilege Escallation
 
+https://tryhackme.com/r/room/linprivesc
+
+IF base64 has SUID it can be used to read flags directly.
+
+
 ```nc -nlvp [PORT]``` - Start netcat listener to catch shell.
 
 ```find / -perm -u=s -type f 2>/dev/null``` - Search for SUID files.
