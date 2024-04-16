@@ -65,10 +65,10 @@ You need to target the right IP and port number (try default first).
 You need to use the right tool from the available.
 
 Example tools to establish a connection to a RAT:
-- njRAT
+- njRAT *
 - MoSucker
 - ProRat
-- Theef
+- Theef *
 - HTTP RAT
 
 </details>
